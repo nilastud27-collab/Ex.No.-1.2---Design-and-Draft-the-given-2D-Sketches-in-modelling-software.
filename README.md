@@ -10,7 +10,7 @@
  4. 2.5 Mbps or faster download; 500 Kbps or faster upload 
  
  ## PROCEDURE
-Step 1: Document Setup & Initializing Sketch 
+## Step 1: Document Setup & Initializing Sketch 
 1. Launch Autodesk Fusion 360. 
 2. Save the project with a relevant name (Exercise 1.2). 
 3. Set the default units to Millimeters (mm) in the Browser tree 
@@ -20,7 +20,7 @@ Plane (Front plane) to begin drawing.
 
 <img width="462" height="465" alt="Screenshot 2026-10-08 205244" src="https://github.com/user-attachments/assets/09e343b1-c778-4da7-94d5-c9f50c0d21b6" />
 
-Step 2: Drawing the Center Hub Feature 
+## Step 2: Drawing the Center Hub Feature 
 1. Select the Center Diameter Circle tool (Shortcut: C). 
 2. Click on the origin  
 (0, 0)
@@ -33,7 +33,7 @@ and draw the following concentric
 
  <img width="555" height="462" alt="Screenshot 2026-10-08 205438" src="https://github.com/user-attachments/assets/f76ca79d-7e7c-48e2-a0e6-5c9458f5cb1f" />
 
-Step 3: Creating the Circular Hub Slots 
+## Step 3: Creating the Circular Hub Slots 
 1. Select the Line tool (Shortcut: L) and create vertical and horizontal 
 construction lines passing through the origin. 
 2. Select the Offset tool (Shortcut: O) and offset the vertical and 
@@ -46,7 +46,7 @@ slot segments inside the inner ring.
 
  <img width="637" height="542" alt="Screenshot 2026-10-08 213424" src="https://github.com/user-attachments/assets/5760cd90-737d-42f8-a9e8-f2c1913b8fcf" />
 
- Step 4: Sketching the Symmetrical Outer Lugs (Holes) 
+## Step 4: Sketching the Symmetrical Outer Lugs (Holes) 
 1. Select the Center Diameter Circle tool (C) to draw the inner 
 holes of the outer lugs: 
 ○ Top & Bottom Lugs (4 total): Positioned at coordinates. Draw circles with a diameter of 30 (𝑋 =± 50,𝑌 =± 60)mm (Radius 15 × 2). 
@@ -59,7 +59,7 @@ around the two side centers.
 
 <img width="273" height="532" alt="Screenshot 2026-10-08 213524" src="https://github.com/user-attachments/assets/62cdb722-abfe-4035-a92d-2dd58c825515" />
 
-Step 5: Defining Outer Connectors & Fillets 
+## Step 5: Defining Outer Connectors & Fillets 
 1. Select the Line tool (L) and draw straight lines connecting the outer boundary of the top/bottom lugs (𝑅21boundary of the side lugs to the outer 20)
 2. Apply the Tangent Constraint between these straight lines and both sets of outer circles to ensure smooth transitions. 
 3. Select the 2-Point Arc or Fillet tool to add the internal 
@@ -67,7 +67,7 @@ blending arcs:
 ○ Create inner blending fillets of radius R20 between the outer hub and the top/bottom outer lug extensions
 4. Apply the Equal Constraint where necessary to mirror the geometry automatically across the quadrants. 
 
-Step 6: Final Cleaning and Dimensioning 
+## Step 6: Final Cleaning and Dimensioning 
 1. Use the Trim tool (T) to carefully cut away all overlapping 
 internal overlapping arcs, ensuring a single closed profile body 
 is formed. 
@@ -77,7 +77,7 @@ sketch is Fully Constrained (all sketch lines turn from blue to
 black). 
 3. Click Finish Sketch in the top right corner.
 
-Step 7: Extruding into a 3D Model 
+## Step 7: Extruding into a 3D Model 
 1. Switch to the Solid tab in the top menu bar. 
 2. Click the Extrude tool icon (Shortcut: E). 
 3. Select the closed profile zones of the sketch by clicking inside 
